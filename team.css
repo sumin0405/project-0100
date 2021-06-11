@@ -36,3 +36,48 @@ a{text-decoration: none; color: white}
     color: black;
 }
 /* 헤더 끝 */
+
+.titlement{
+    background-image: ;
+}
+
+.memberprofile {
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+	display: flex
+}
+.member1{
+    margin: 8px;
+    width: 300px;
+    /* height: 200px;
+    line-height: 200px; */
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+}
+.member2{
+    margin: 8px;
+    width: 300px;
+    /* height: 200px;
+    line-height: 200px; */
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+}
+.member3{
+    margin: 8px;
+    width: 300px;
+    /* height: 200px;
+    line-height: 200px; */
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+}
+.member4{
+    margin: 8px;
+    width: 300px;
+    /* height: 200px;
+    line-height: 200px; */
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+} 
