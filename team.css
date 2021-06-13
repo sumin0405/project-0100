@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body{margin: 0%; font-family: 'NanumSquareRound';}
 a{text-decoration: none; color: white}
 
@@ -66,7 +67,7 @@ a{text-decoration: none; color: white}
 }
 
 .memberprofile {
-    padding-top: 60px;
+    padding-top: 20vh;
     padding-left:10vh;
     padding-right: 10vh;
     /* align-items: center; */
@@ -82,7 +83,7 @@ a{text-decoration: none; color: white}
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
-    background-color: rgb(189, 189, 189);
+    /* background-color: rgb(189, 189, 189); */
     color: rgb(0, 0, 0);
 }
 .member2{
@@ -90,7 +91,7 @@ a{text-decoration: none; color: white}
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
-    background-color: rgb(189, 189, 189);
+    /* background-color: rgb(189, 189, 189); */
     color: rgb(0, 0, 0);
 }
 .member3{
@@ -98,7 +99,7 @@ a{text-decoration: none; color: white}
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
-    background-color: rgb(189, 189, 189);
+    /* background-color: rgb(189, 189, 189); */
     color: rgb(0, 0, 0);
 }
 .member4{
@@ -106,14 +107,123 @@ a{text-decoration: none; color: white}
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
-    background-color: rgb(189, 189, 189);
+    /* background-color: rgb(189, 189, 189); */
     color: rgb(0, 0, 0);
 } 
 
+.name{
+    /* background-color: rgb(199, 199, 199); */
+    height: 50px;
+    line-height: 50px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.selfIntroduce{
+    /* background-color: rgb(199, 199, 199); */
+    height: 70px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    line-height: 22px;
+}
+
+.personalweb{
+    /* background-color: rgb(199, 199, 199); */
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+}
+
+.personalweb a{
+    border: rgb(54, 54, 54) solid 1px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .picture{
-    background-color: rgb(61, 61, 61);
-    width: 200px;
-    height: 200px;
-    border: rgb(61, 61, 61);
-    border-radius: 75px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 160px;
+}
+
+.circle{
+    position:relative;
+    background-color: rgb(41, 41, 41);
+    width: 230px;
+    height: 230px;
+    border: ivory;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0;
+    text-align:left;
+    align-items: center;
+    
+}
+
+.circletext1{
+    color:whitesmoke;
+    width: 160px;
+    height: 160px;
+    padding-top: 70px;
+    margin-right: 32%;
+    margin-left: 28%;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.circletext2{
+    color:whitesmoke;
+    width: 160px;
+    height: 160px;
+    padding-top: 84px;
+    margin-right: 30%;
+    margin-left: 37%;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.circletext3{
+    color:whitesmoke;
+    width: 160px;
+    height: 160px;
+    padding-top: 80px;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.circletext4{
+    color:whitesmoke;
+    width: 160px;
+    height: 160px;
+    padding-top: 80px;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 25px;
+    opacity: 1;
+}
+
+
+
+.circle:hover{
+    cursor: pointer;
+    position:relative;
+    background-color: rgb(41, 41, 41);
+    width: 230px;
+    height: 230px;
+    border: ivory;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.87;
+    text-align:left;
+    align-items: center;
 }
