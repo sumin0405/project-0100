@@ -39,7 +39,7 @@ a{text-decoration: none; color: white}
 
 /* 첫페이지 */
 .titlement{
-    background-image: url('hhdnb.jpg');
+    background-image: url("./team_scr/hhdnb.jpg");
     background-size:cover;
     width: 100%;
     height: 90vh;
@@ -58,7 +58,7 @@ a{text-decoration: none; color: white}
 
 /* 프로필 전체에 적용 */
 .memberprofilepage {
-    background-image: url('hhdnb2.jpg');
+    background-image: url("team_scr/hhdnb2.jpg");
     background-size:cover;
     height: 100vh;
 
