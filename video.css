@@ -36,3 +36,13 @@ a{text-decoration: none; color: white}
     color: black;
 }
 /* 헤더 끝 */
+
+.videoBox{
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    justify-items: center;
+    align-items: center;
+}
