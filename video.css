@@ -46,3 +46,7 @@ a{text-decoration: none; color: white}
     justify-items: center;
     align-items: center;
 }
+.video, .video img{
+    width: 300px;
+}
+
