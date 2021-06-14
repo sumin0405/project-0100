@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
     font-family: 'NanumSquareRound';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
     font-weight: normal;
@@ -6,33 +7,98 @@
 }
 body{margin: 0%; font-family: 'NanumSquareRound';}
 a{text-decoration: none; color: white}
-
+section
+{
+  background: #fff;
+  min-height: 100vh;
+}
 /* 헤더 */
-.header{
-    background-color: black;
+.header
+{
+    background-color: #1a1a1a;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
 }
-
-.header img{
-    width: 150px;
+.header img
+{
+    width: 120px;
 }
-.rogo{
-    margin-left: 50px;
+.rogo
+{
+    margin-left: 100px;
 }
-.header_tab{
-    margin-right: 50px;
+.header_tab
+{
+    margin-right: 100px;
 }
-.header_tab a{
+.header_tab a
+{
     padding: 8px 25px;
     border-radius: 5px;
 }
-.header_tab a:hover{
+.header_tab a:hover
+{
     background-color: white;
     color: black;
 }
 /* 헤더 끝 */
+
+.main .main_image img
+{
+    height: 92vh;
+    position: absolute;
+    top: 8vh;
+    left: 0;
+}
+.main .main_content
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main_content .main_text
+{
+    position: relative;
+    max-width: 800px;
+}
+.main .main_content .main_text h2
+{
+    color: #fff;
+    font-size: 6em;
+    line-height: 0.4em;
+    font-weight: 700;
+    letter-spacing: 20px;
+}
+
+.introduce
+{
+    position: relative;
+    bottom: 8vh;
+    min-height: 50vh;
+    background: #1a1a1a;
+}
+
+.recentvideo
+{
+    position: relative;
+    bottom: 8vh;
+    background: #fff;
+}
+
+.contact
+{
+    position: relative;
+    min-height: 92vh;
+    background: #1a1a1a;
+}
+
+.footer
+{
+    width: 100%;
+    height: 8vh;
+}
