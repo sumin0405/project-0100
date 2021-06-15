@@ -2,37 +2,6 @@
 body{margin: 0%; font-family: 'Noto Sans KR', sans-serif;}
 a{text-decoration: none; color: white}
 
-/* 헤더 */
-.header{
-    /* position: fixed; */
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 9vh;
-}
-
-.header img{
-    width: 150px;
-}
-.rogo{
-    margin-left: 50px;
-}
-.header_tab{
-    margin-right: 50px;
-}
-.header_tab a{
-    padding: 8px 25px;
-    border-radius: 5px;
-}
-.header_tab a:hover{
-    background-color: white;
-    color: black;
-}
-/* 헤더 끝 */
-
 /* 첫페이지 */
 .titlement{
     background-image: url("./team_scr/hhdnb3.jpg");
