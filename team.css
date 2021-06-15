@@ -4,6 +4,7 @@ a{text-decoration: none; color: white}
 
 /* 헤더 */
 .header{
+    /* position: fixed; */
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -34,7 +35,7 @@ a{text-decoration: none; color: white}
 
 /* 첫페이지 */
 .titlement{
-    background-image: url("./team_scr/hhdnb.jpg");
+    background-image: url("./team_scr/hhdnb3.jpg");
     background-size:cover;
     width: 100%;
     height: 91vh;
