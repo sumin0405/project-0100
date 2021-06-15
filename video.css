@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'NanumSquareRound';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-body{margin: 0%; font-family: 'NanumSquareRound';}
-a{text-decoration: none; color: white}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+body{margin: 0%; font-family: 'Noto Sans KR', sans-serif;}
+a{text-decoration: none; color: white;}
 
 /* 헤더 */
 .header{
@@ -21,7 +16,7 @@ a{text-decoration: none; color: white}
 .header img{
     width: 150px;
 }
-.rogo{
+.logo{
     margin-left: 50px;
 }
 .header_tab{
@@ -44,9 +39,26 @@ a{text-decoration: none; color: white}
     gap: 50px;
     margin: 50px;
     justify-items: center;
-    align-items: center;
+    align-items: top;
 }
-.video, .video img{
+.video img{
     width: 400px;
 }
 
+.video{
+    padding: 20px;
+}
+.video p{
+    max-width: 400px;
+}
+
+.video span{
+    font-size: 20px;
+}
+
+.videoBox button{
+    background-color: rgb(192, 187, 187);
+    background-color: white;
+    color: skyblue;
+    padding: 5px; 
+}
