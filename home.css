@@ -78,13 +78,14 @@ section
 .introduce
 {
     background-color: #1a1a1a;
-    min-height: 55vh;
+    min-height: 50vh;
     width: 100%;
 }
 .introduce .introduce_content
 {
     position: absolute;
-    margin: 70px 400px;
+    margin: 8vh 45vh 8vh 45vh;
+    max-height: 200px;
 }
 .introduce .introduce_content .introduce_contentText h2
 {
@@ -98,7 +99,16 @@ section
     color: #fff;
     font-size: 1.7em;
     font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
     top: 2vh;
+}
+.introduce .introduce_content .introduce_contentButton
+{
+    position: relative;
+    top: 7vh;
+    font-size: 1.3em;
+    text-decoration: coral;
 }
 
 .recentvideo
