@@ -1,52 +1,52 @@
 var video = [
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
-        title: "[EP.1] Project 0_102",
+        title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 15
     },
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
-        title: "[EP.1] Project 0_102",
+        title: "[EP.2] 청소년 성관계는 나쁜걸까?",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
-        day: 20210616
+        day: 2021 + "." + 06 + "." + 16
     },
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
         title: "[EP.1] Project 0_103",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
-        day: 20210617
+        day: 2021 + "." + 06 + "." + 17
     },
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
-        day: 20210618
+        day: 2021 + "." + 06 + "." + 18
     },
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
-        day: 20210619
+        day: 2021 + "." + 06 + "." + 19
     },
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
-        day: 20210620
+        day: 2021 + "." + 06 + "." + 20
     },
     {
         img: "./video_scr/제목을_입력해주세요._1_(3).png",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
-        day: 20210621
+        day: 2021 + "." + 06 + "." + 21
     },
 ]
 
@@ -56,8 +56,8 @@ function print(_result) {
         document.querySelector('.videoBox').innerHTML +=
             `<div class="video">
                 <img src="${videoi.img}" alt="">
-                <p><span>${videoi.title}</span> ${videoi.day}</p>
-                <p>${videoi.text}</p>
+                <p class="title"><span>${videoi.title}</span> &nbsp; - ${videoi.day}</p>
+                <p class="text">${videoi.text}</p>
                 <button type="button" onClick="location.href='${videoi.url}'">보러가기</button>
             </div>`;
     }
@@ -66,11 +66,11 @@ for (var i in video) {
     var videoi = video[i];
     document.querySelector('.videoBox').innerHTML +=
         `<div class="video">
-            <img src="${videoi.img}" alt="">
-            <h2>${videoi.title} ${videoi.day}</h2>
-            <p>${videoi.text}</p>
-            <button type="button" onClick="location.href='${videoi.url}'">보러가기</button>
-        </div>`;
+                <img src="${videoi.img}" alt="">
+                <p class="title"><span>${videoi.title}</span> &nbsp; - ${videoi.day}</p>
+                <p class="text">${videoi.text}</p>
+                <button type="button" onClick="location.href='${videoi.url}'">보러가기</button>
+            </div>`;
 }
 
 
