@@ -49,6 +49,10 @@ section
 }
 /* 헤더 끝 */
 
+.main
+{
+    width: 100%;
+}
 .main .main_image img
 {
     height: 92vh;
@@ -81,6 +85,7 @@ section
 {
     position: relative;
     min-height: 55vh;
+    width: 100%;
     background: #1a1a1a;
 }
 
@@ -88,6 +93,7 @@ section
 {
     position: relative;
     bottom: 8vh;
+    width: 100%;
     background: #fff;
 }
 
@@ -95,12 +101,14 @@ section
 {
     position: relative;
     min-height: 92vh;
+    width: 100%;
     background: #1a1a1a;
     bottom: 8vh;
 }
 
 .footer
 {
+    width: 100%;
     position: relative;
     width: 100%;
     bottom: 8vh;
