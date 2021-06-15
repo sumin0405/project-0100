@@ -67,6 +67,7 @@ section
 {
     padding: 8px 25px;
     border-radius: 5px;
+    font-size: 1.2em;
 }
 .main .main_navbarTab a:hover
 {
@@ -83,24 +84,25 @@ section
 }
 .introduce .introduce_content
 {
-    position: absolute;
-    margin: 8vh 45vh 8vh 45vh;
-    max-height: 200px;
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    padding-top: 8.5vh;
 }
 .introduce .introduce_content .introduce_contentText h2
 {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 2.2em;
     letter-spacing: 0.2em;
 }
 .introduce .introduce_content .introduce_contentText p
 {
     position: relative;
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 300;
     line-height: 1.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     top: 2vh;
 }
 .introduce .introduce_content .introduce_contentButton
@@ -108,13 +110,44 @@ section
     position: relative;
     top: 7vh;
     font-size: 1.3em;
-    text-decoration: coral;
+}
+.introduce .introduce_content .introduce_contentButton a:visited
+{
+    color: gray;
+}
+.introduce .introduce_content .introduce_contentButton a:hover
+{
+    color: #fff;
 }
 
 .recentvideo
 {
-    background-color: #fff;
+    background-image: url(./home_scr/recentvideo.png);
+    background-size: cover;
+    position: relative;
+}
+.recentvideo .recentvideo_grey
+{
     width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    opacity: 0.7;
+}
+.recentvideo .recentvideo_content
+{
+    position: absolute;
+    top: 30vh;
+    left: 25vw;
+}
+.recentvideo .recentvideo_content .recentvideo_contentText
+{
+    color: #fff;
+}
+.recentvideo .recentvideo_content .recentvideo_contentText h2
+{
+    color: #fff;
+    font-size: 3.5em;
+    letter-spacing: 0.2em;
 }
 
 .contact
