@@ -7,8 +7,8 @@ a{text-decoration: none; color: white}
     background-image: url("./team_scr/hhdnb3.jpg");
     background-size:cover;
     width: 100%;
-    margin-top: 9vh;
-    height: 91vh;
+    margin-top: 5.5vh;
+    height: 91.5vh;
 
     color: #fafafa;
     text-align: center;
@@ -17,8 +17,8 @@ a{text-decoration: none; color: white}
 
 .titlementtext{
     background-color: none;
-    line-height: 115px;
-    padding-top: 200px;
+    line-height: 110px;
+    padding-top: 210px;
 }
 /* 첫페이지 끝 */
 
@@ -26,13 +26,13 @@ a{text-decoration: none; color: white}
 .memberprofilepage {
     background-image: url("team_scr/hhdnb2.jpg");
     background-size:cover;
-    height: 100vh;
+    height: 84vh;
 
     align-items: center;
 }
 
 .memberprofile {
-    padding-top: 17vh;
+    padding-top: 13.5vh;
     padding-left:10vh;
     padding-right: 10vh;
     /* align-items: center; */
@@ -81,15 +81,15 @@ a{text-decoration: none; color: white}
     height: 50px;
     line-height: 50px;
     padding-top: 15px;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight:normal;
 }
 
 .selfIntroduce{
     /* background-color: rgb(199, 199, 199); */
     height: 70px;
-    padding-top: 8px;
-    padding-bottom: 25px;
+    padding-top: 12px;
+    padding-bottom: 7px;
     line-height: 22px;
     font-size: 14px;
 }
@@ -151,7 +151,7 @@ a{text-decoration: none; color: white}
     color:whitesmoke;
     width: 160px;
     height: 160px;
-    padding-top: 75px;
+    padding-top: 63px;
     margin-right: 32%;
     margin-left: 28%;
     font-size: 25px;
@@ -162,7 +162,7 @@ a{text-decoration: none; color: white}
     color:whitesmoke;
     width: 160px;
     height: 160px;
-    padding-top: 86px;
+    padding-top: 77px;
     margin-right: 30%;
     margin-left: 37%;
     font-size: 25px;
@@ -173,7 +173,7 @@ a{text-decoration: none; color: white}
     color:whitesmoke;
     width: 160px;
     height: 160px;
-    padding-top: 86px;
+    padding-top: 77px;
     margin-right: 30%;
     margin-left: 30%;
     font-size: 25px;
@@ -184,7 +184,7 @@ a{text-decoration: none; color: white}
     color:whitesmoke;
     width: 160px;
     height: 160px;
-    padding-top: 86px;
+    padding-top: 77px;
     margin-right: 30%;
     margin-left: 30%;
     font-size: 25px;
@@ -206,4 +206,8 @@ a{text-decoration: none; color: white}
     opacity: 0.87;
     text-align:left;
     align-items: center;
+}
+
+.footer{
+    bottom: 0;
 }
