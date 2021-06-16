@@ -99,26 +99,32 @@ a{text-decoration: none; color: white;}
     flex-direction:column;
 }
 
-.photo1{
+.right{
+    position: relative;
+    right: 0px;
+}
+
+.photo1 img{
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: 30%;
+    height: auto;
     z-index: 3;
 }
 
-.photo2{
-    position: absolute;
-    width: 5px;
-    height: 5px;
+.photo2 img{
+    /* position: absolute; */
+    width: 30%;
+    height: auto;
     z-index: 2;
 }
 
-.photo3{
-    position: absolute;
-    width: 5px;
-    height: 5px;
+.photo3 img{
+    /* position: absolute; */
+    width: 40%;
+    height: auto;
     z-index: 1;
 }
+
 @keyframes slider{
     0%{
         left: 0;
