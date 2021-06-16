@@ -1,48 +1,48 @@
 var video = [
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 15
     },
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.2] 청소년 성관계는 나쁜걸까?",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 16
     },
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.1] Project 0_103",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 17
     },
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 18
     },
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 19
     },
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 06 + "." + 20
     },
     {
-        img: "https://www.youtube.com/embed/HpX_LCBGEcc",
+        img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
         title: "[EP.1] Project 0_100",
         text: "PROJECT : 0_100의 본격적인 시작을 알리는 짧은 예고편으로 공백의 비전을 담아보았다.",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
