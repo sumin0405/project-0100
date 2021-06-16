@@ -7,6 +7,7 @@ a{text-decoration: none; color: white}
     background-image: url("./team_scr/hhdnb3.jpg");
     background-size:cover;
     width: 100%;
+    margin-top: 9vh;
     height: 91vh;
 
     color: #fafafa;
