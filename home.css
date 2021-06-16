@@ -124,20 +124,14 @@ section
 {
     background-image: url(./home_scr/recentvideo.png);
     background-size: cover;
-    position: relative;
-}
-.recentvideo .recentvideo_grey
-{
-    width: 100%;
-    height: 100vh;
-    background-color: #1a1a1a;
-    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .recentvideo .recentvideo_content
 {
-    position: absolute;
-    top: 33vh;
-    left: 26vw;
+    position: relative;
+    right: 5vw;
 }
 .recentvideo .recentvideo_content .recentvideo_contentText
 {
