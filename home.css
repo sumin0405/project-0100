@@ -124,20 +124,14 @@ section
 {
     background-image: url(./home_scr/recentvideo.png);
     background-size: cover;
-    position: relative;
-}
-.recentvideo .recentvideo_grey
-{
-    width: 100%;
-    height: 100vh;
-    background-color: #1a1a1a;
-    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .recentvideo .recentvideo_content
 {
-    position: absolute;
-    top: 33vh;
-    left: 26vw;
+    position: relative;
+    right: 5vw;
 }
 .recentvideo .recentvideo_content .recentvideo_contentText
 {
@@ -159,7 +153,7 @@ section
     letter-spacing: 0.1em;
     top: 1.7vh;
 }
-.recentvideo .recentvideo_content .recentvideo_contentText .recentvideo_contentText_span2
+.recentvideo .recentvideo_content .recentvideo_contentText .recentvideo_contentText_span
 {
     margin-left: 50px;
 }
@@ -200,9 +194,9 @@ section
     bottom: 0;
     background-color: grey;
     border: none;
-    width: 80vw;
+    width: 90vw;
     height: 3px;
-    left: 10vw;
+    left: 5vw;
 }
 
 [data-trigger]

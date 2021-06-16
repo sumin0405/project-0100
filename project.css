@@ -99,30 +99,33 @@ a{text-decoration: none; color: white;}
     flex-direction:column;
 }
 
-.right{
-    position: relative;
-    right: 0px;
-}
-
 .photo1 img{
-    position: absolute;
-    width: 30%;
-    height: auto;
-    z-index: 3;
+    width: 26%;
+    border: 8px solid rgb(3, 3, 3);
 }
 
 .photo2 img{
-    /* position: absolute; */
-    width: 30%;
+    width: 26%;
+    border: 8px solid rgb(3, 3, 3);
+}
+
+.photo1 {
+    position: absolute;
+    right: 0;
     height: auto;
-    z-index: 2;
+    z-index: 1;
+}
+.photo2 {
+    position: absolute;
+    right: 10px;
+    height: auto;
+    z-index: 1;
 }
 
 .photo3 img{
-    /* position: absolute; */
-    width: 40%;
-    height: auto;
-    z-index: 1;
+    width: 26%;
+    transform: rotate(-10deg);
+    border: 8px solid rgb(3, 3, 3);
 }
 
 @keyframes slider{

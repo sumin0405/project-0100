@@ -7,8 +7,7 @@ a{text-decoration: none; color: white}
     background-image: url("./team_scr/hhdnb3.jpg");
     background-size:cover;
     width: 100%;
-    margin-top: 5.5vh;
-    height: 91.5vh;
+    height: 100vh;
 
     color: #fafafa;
     text-align: center;
@@ -18,7 +17,7 @@ a{text-decoration: none; color: white}
 .titlementtext{
     background-color: none;
     line-height: 110px;
-    padding-top: 210px;
+    padding-top: 265px;
 }
 /* 첫페이지 끝 */
 
@@ -38,8 +37,8 @@ a{text-decoration: none; color: white}
     /* align-items: center; */
     text-align: center;  
 	display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) );
 }
 /* 전체에 적용 끝 */
 
