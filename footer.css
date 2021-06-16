@@ -25,3 +25,6 @@
 .fa-instagram{
     margin-right: 80px;
 }
+.icon i:hover{
+    opacity: 50%;
+}
