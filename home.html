@@ -80,7 +80,24 @@
         </div>
     </footer>
     <!-- 하단 끝 -->
-    <script type="text/javascript" src="./home.js"></script>
+    <script type="text/javascript" src="./scrolltrigger.js">
+    </script>
+    <script>
+        const trigger = new ScrollTrigger.default({
+            trigger: {
+                once: true,
+                offset: {
+                    viewport: {
+                        x: 0,
+                        y: (trigger, frame, direction) => {
+                            return trigger.visible ? 0 : 0.4
+                        }
+                    }
+                }
+            }
+        });
+        trigger.add('[data-trigger]');
+    </script>
 </body>
 
 </html>
