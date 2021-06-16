@@ -99,30 +99,32 @@ a{text-decoration: none; color: white;}
     flex-direction:column;
 }
 
-.right{
-    position: relative;
-    right: 0px;
-}
-
 .photo1 img{
-    position: absolute;
+    /* position: absolute; */
+    right: 0;
     width: 30%;
     height: auto;
     z-index: 3;
+    border: 8px solid rgb(3, 3, 3);
 }
 
 .photo2 img{
     /* position: absolute; */
-    width: 30%;
+    right:0;
+    width: 40%;
     height: auto;
     z-index: 2;
+    border: 8px solid rgb(3, 3, 3);
 }
 
 .photo3 img{
     /* position: absolute; */
-    width: 40%;
+    right: 0;
+    width: 26%;
     height: auto;
     z-index: 1;
+    border: 8px solid rgb(3, 3, 3);
+    transform: rotate(5edg);
 }
 
 @keyframes slider{
