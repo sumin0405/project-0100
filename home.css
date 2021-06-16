@@ -194,9 +194,9 @@ section
     bottom: 0;
     background-color: grey;
     border: none;
-    width: 80vw;
+    width: 90vw;
     height: 3px;
-    left: 10vw;
+    left: 5vw;
 }
 
 [data-trigger]
