@@ -214,6 +214,11 @@ section
     left: 5vw;
 }
 
+@media (max-width: 991px)
+{
+    
+}
+
 [data-trigger]
 {
     opacity: 0;
