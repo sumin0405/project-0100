@@ -139,6 +139,7 @@ a{text-decoration: none; color: white;}
     border: 8px solid rgb(3, 3, 3);
 }
 
+
 @keyframes slider{
     0%{
         left: 0;
