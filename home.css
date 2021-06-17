@@ -125,6 +125,7 @@ section
     position: relative;
     top: 7vh;
     font-size: 1.3em;
+    letter-spacing: 0.1em;
 }
 .introduce .introduce_content .introduce_contentButton a:visited
 {
@@ -186,6 +187,7 @@ section
     position: relative;
     top: 11vh;
     font-size: 1.5em;
+    letter-spacing: 0.1em;
 }
 .recentvideo .recentvideo_content .recentvideo_contentButton a:visited
 {
@@ -216,7 +218,7 @@ section
 
 @media (max-width: 991px)
 {
-    
+
 }
 
 [data-trigger]
