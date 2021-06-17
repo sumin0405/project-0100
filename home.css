@@ -11,16 +11,30 @@ a
 }
 section
 {
-  background: #fff;
-  min-height: 100vh;
+    background: #fff;
+    min-height: 100vh;
+    position: relative;
 }
 
 .main
 {
-    background-image: url(./team_scr/hhdnb.jpg);
-    background-size: cover;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+}
+.main .main_img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .main_img img
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
 }
 .main .main_content
 {
@@ -81,6 +95,7 @@ section
     background-color: #1a1a1a;
     min-height: 50vh;
     width: 100%;
+    z-index: 3;
 }
 .introduce .introduce_content
 {
@@ -195,7 +210,7 @@ section
     background-color: grey;
     border: none;
     width: 90vw;
-    height: 3px;
+    height: 1px;
     left: 5vw;
 }
 
