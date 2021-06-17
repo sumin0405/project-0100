@@ -63,21 +63,46 @@
 
     </div>
 
-
-    <div class="_text">
-        현재 학교에서 진행되고 있는 성교육은 학생들에게 필요한 정보를 제공하지 못함이 여러가지 근거에 의해 증명되었으며, 이는 사회의 공백이 되어버렸습니다.
-
-        그래서 저희는 이러한 공백을 0(공)에서부터 100(백)까지 차곡차곡 메꾸겠다는 비전을 담아 프로젝트 공백을 시작하였습니다.
-
-        저희는 대한민국 성교육의 실태를 알려 문제의식을 깨우고, 학생들이 필요로 하는 성지식을 제공하기 위한 다양한 콘텐츠를 꾸준히 만들어나갈 것입니다.
-
+    <div class="title">
+        공백은
     </div>
 
     <div class="third">
-        <div class="tet">
-            프로젝트 공백에 대한 구체적인 소개
+        <div class="sex" data-trigger>
+            성
         </div>
+
+        <div class="young" data-trigger>
+            청소년
+        </div>
+
+        <div class="issue" data-trigger>
+            사회이슈
+        </div>
+
+        <div class="media" data-trigger>
+            영상
+        </div>
+
+        <div class="plat" data-trigger>
+            유튜브
+        </div>
+
+        <div class="pund" data-trigger>
+            펀딩
+        </div>
+
+        <div class="_text">
+            현재 학교에서 진행되고 있는 성교육은 학생들에게 필요한 정보를 제공하지 못함이 여러가지 근거에 의해 증명되었으며, 이는 사회의 공백이 되어버렸습니다.
+
+            그래서 저희는 이러한 공백을 0(공)에서부터 100(백)까지 차곡차곡 메꾸겠다는 비전을 담아 프로젝트 공백을 시작하였습니다.
+
+            저희는 대한민국 성교육의 실태를 알려 문제의식을 깨우고, 학생들이 필요로 하는 성지식을 제공하기 위한 다양한 콘텐츠를 꾸준히 만들어나갈 것입니다.
+
+        </div>
+
     </div>
+
     <div class="fourth">
         <div class="name">
             펀딩 후원자 이름 기재
@@ -96,6 +121,24 @@
         </div>
     </div>
     <!-- 하단 끝 -->
+    <script type="text/javascript" src="./scrolltrigger.js">
+    </script>
+    <script>
+        const trigger = new ScrollTrigger.default({
+            trigger: {
+                once: true,
+                offset: {
+                    viewport: {
+                        x: 0,
+                        y: (trigger, frame, direction) => {
+                            return trigger.visible ? 0 : 0.4
+                        }
+                    }
+                }
+            }
+        });
+        trigger.add('[data-trigger]');
+    </script>
 </body>
 
 </html>
