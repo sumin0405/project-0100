@@ -31,8 +31,10 @@ a{text-decoration: none; color: white;}
 
 ._text {
     position: relative;
-    margin-top: 30px;
+    margin-top: 10%;
     font-size: medium;
+    text-align: center;
+    justify-content: center;
     color:rgb(246, 247, 239);
 }
 
