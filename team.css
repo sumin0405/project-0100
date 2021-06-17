@@ -17,7 +17,7 @@ a{text-decoration: none; color: white}
 .titlementtext{
     background-color: none;
     line-height: 110px;
-    padding-top: 265px;
+    padding-top: 285px;
 }
 /* 첫페이지 끝 */
 
@@ -36,13 +36,16 @@ a{text-decoration: none; color: white}
     padding-right: 10vh;
     /* align-items: center; */
     text-align: center;  
-	display: grid;
+    display:flex;
+    flex-direction: row;
+	/* display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) ); */
 }
 /* 전체에 적용 끝 */
 
 .member1{
+    flex: 1;
     margin: 8px;
     width: 40vh;
     /* height: 200px;
@@ -51,6 +54,7 @@ a{text-decoration: none; color: white}
     color: rgb(0, 0, 0);
 }
 .member2{
+    flex: 1;
     margin: 8px;
     width: 40vh;
     /* height: 200px;
@@ -59,6 +63,7 @@ a{text-decoration: none; color: white}
     color: rgb(0, 0, 0);
 }
 .member3{
+    flex: 1;
     margin: 8px;
     width: 40vh;
     /* height: 200px;
@@ -67,6 +72,7 @@ a{text-decoration: none; color: white}
     color: rgb(0, 0, 0);
 }
 .member4{
+    flex: 1;
     margin: 8px;
     width: 40vh;
     /* height: 200px;
