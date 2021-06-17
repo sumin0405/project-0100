@@ -12,6 +12,15 @@ a{text-decoration: none; color: white;}
     justify-content: center;
 }
 
+.pnation{
+    padding-top: 4%;
+    font-size: 65px;
+    font-weight:650;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo {
     margin-top: 70px;
     height: 30%;
@@ -31,7 +40,7 @@ a{text-decoration: none; color: white;}
 
 ._text {
     position: relative;
-    margin-top: 10%;
+    margin-top: 6%;
     font-size: medium;
     text-align: center;
     justify-content: center;
@@ -41,7 +50,7 @@ a{text-decoration: none; color: white;}
 .third {
     margin-top: 18%;
     width: 100%;
-    height: 160vh;
+    height: 140vh;
     background-color: rgb(3, 3, 3);
 }
 
@@ -196,6 +205,8 @@ a{text-decoration: none; color: white;}
     font-size: 60px;
     font-weight:600;
 }
+
+
 
 .title{
     margin-top: 30px;
