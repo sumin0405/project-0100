@@ -13,6 +13,7 @@ a{text-decoration: none; color: white;}
 }
 
 .pnation{
+    text-shadow: 5px 5px #969799;
     padding-top: 4%;
     font-size: 65px;
     font-weight:650;
@@ -209,6 +210,72 @@ a{text-decoration: none; color: white;}
     font-weight:600;
 }
 
+.vip{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.lee{
+    font-family: neon;
+    color: #FB4264;
+  font-size: 150%;
+  font-weight: 500;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.lee{
+    animation: lee 1s ease infinite;
+  -moz-animation: lee 1s ease infinite;
+  -webkit-animation: lee 1s ease infinite;
+}
+
+.bak{
+    font-family: neon;
+    color: #426DFB;
+    font-weight: 500;
+  font-size: 150%;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.bak{
+    animation: bak 1s ease infinite;
+    -moz-animation: bak 1s ease infinite;
+    -webkit-animation: bak 1s ease infinite;
+}
+
+
+@keyframes lee{
+    0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+@keyframes bak{
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+      color: #28D7FE;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+      color: #146C80;
+  }
+}
 
 [data-trigger]
 {

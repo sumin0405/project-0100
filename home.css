@@ -220,23 +220,6 @@ section
     color: #fff;
 }
 
-.contact
-{
-    position: relative;
-    background-color: #1a1a1a;
-    width: 100%;
-    min-height: 88vh;
-}
-.contact_hr
-{
-    position: absolute;
-    bottom: 0;
-    background-color: grey;
-    border: none;
-    width: 90vw;
-    height: 1px;
-    left: 5vw;
-}
 
 @media(max-width: 991px)
 {
@@ -322,7 +305,7 @@ section
         margin: auto;
         width: 80%;
         max-width: 350px;
-        padding-top: 8vh;
+        padding-top: 7vh;
     }
     .introduce .introduce_content .introduce_contentText .introduce_contentText_web
     {
@@ -342,6 +325,7 @@ section
     .recentvideo .recentvideo_content
     {
         position: relative;
+        left: 0.5vh;
     }
     .recentvideo .recentvideo_content .recentvideo_contentText
     {
@@ -364,15 +348,19 @@ section
     }
     .recentvideo .recentvideo_content .recentvideo_contentText .recentvideo_contentText_span
     {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .recentvideo .recentvideo_content .recentvideo_contentText p
     {
-        font-size: 1.4em;
+        position: relative;
+        top: 4vh;
+        font-size: 0.9em;
     }
     .recentvideo .recentvideo_content .recentvideo_contentButton
     {
-        font-size: 1.3em;
+        position: relative;
+        top: 9vh;
+        font-size: 1em;
     }
 }
 
