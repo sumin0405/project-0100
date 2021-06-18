@@ -6,12 +6,10 @@ a{text-decoration: none; color: white}
 .titlement{
     background-image: url("./team_scr/hhdnb3.jpg");
     background-size:cover;
-    width: 100%;
-    height: 100vh;
-
     color: #fafafa;
     text-align: center;
     font-size: 79px;
+    padding-bottom:10vw;
 }
 
 .titlementtext{
@@ -25,36 +23,37 @@ a{text-decoration: none; color: white}
 .memberprofilepage {
     background-image: url("team_scr/hhdnb2.jpg");
     background-size:cover;
-    height: 84vh;
-
     align-items: center;
 }
 
 .memberprofile {
     padding-top: 13.5vh;
-    padding-left:10vh;
+    padding-left:0vh;
     padding-right: 10vh;
     /* align-items: center; */
     text-align: center;  
-    
-    display:flex;
-    flex-direction: row;
-
-    
+    width: 100%;
+    /* display:flex; */
+    /* flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) );
+    padding-bottom:10vw;
     
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     .titlement{
         width: 100%;
     }
     .memberprofilepage{
         height: 2000px;
+
     }
     .memberprofile{    
         padding:0;
-        height: 2000px;
-        background-color:lightgray;
+        
         flex-direction: column;
+        align-items: center;
     }
     
 }
