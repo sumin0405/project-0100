@@ -69,14 +69,14 @@ a{text-decoration: none; color: white;}
 }
 
 .name {
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 5%;
+    margin-bottom: 6%;
     font-size: xx-large;
 }
 
 ._name {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: xx-large;
 }
 
