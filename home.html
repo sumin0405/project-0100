@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Project : 0_100</title>
     <link rel="shortcut icon" type="image/x-icon" href="./home_scr/원형로고.png">
@@ -17,17 +18,20 @@
         <div class="main_img">
             <img src="./team_scr/hhdnb.jpg">
         </div>
-        <header>
-            <div class="main_navbar">
-                <a href="./home.html" class="main_navbarLogo"><img src="./home_scr/logo.png" alt=""></a>
-                <div class="main_navbarTab">
-                    <a href="./home.html">홈</a>
-                    <a href="./video.html">영상</a>
-                    <a href="./project.html">프로젝트 소개</a>
-                    <a href="./team.html">팀원 소개</a>
-                </div>
+        <!-- 헤더 -->
+        <div class="header">
+            <a href="./index.html" class="Logo"><img src="./home_scr/logo.png" alt=""></a>
+            <div class="header_tab hidden">
+                <a href="./Index.html">홈</a>
+                <a href="./video.html">영상</a>
+                <a href="./project.html">프로젝트 소개</a>
+                <a href="./team.html">팀원 소개</a>
             </div>
-        </header>
+            <a href="#" class="toggleBtn">
+                <i class="fas fa-bars" onclick="toggle()"></i>
+            </a>
+        </div>
+        <!-- 헤더 끝 -->
         <div class="main_content">
             <div class="main_contentText">
                 <h2>사회의</h2>
@@ -74,13 +78,15 @@
         </div>
     </section>
 
-    <section class="footer">
-        <p>hh.sameage@gmail.com</p>
+    <!-- 하단 -->
+    <div class="footer">
+        <a href="mailto:hh.sameage@gmail.com" title="혜화동년배 메일보내기" class="mail">hh.sameage@gmail.com</a>
         <div class="icon">
             <a href="https://www.instagram.com/project0100.official/"><i class="fab fa-instagram"></i></a>
             <a href="https://www.youtube.com/channel/UCcgnbLSOZZmugeNUALkdUyA"><i class="fab fa-youtube"></i></a>
         </div>
-    </section>
+    </div>
+    <!-- 하단 끝 -->
     <script type="text/javascript" src="./scrolltrigger.js">
     </script>
     <script>
