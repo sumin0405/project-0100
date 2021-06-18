@@ -20,9 +20,9 @@
         </div>
         <!-- 헤더 -->
         <div class="header">
-            <a href="./index.html" class="Logo"><img src="./home_scr/logo.png" alt=""></a>
+            <a href="./home.html" class="Logo"><img src="./home_scr/logo.png" alt=""></a>
             <div class="header_tab hidden">
-                <a href="./Index.html">홈</a>
+                <a href="./home.html">홈</a>
                 <a href="./video.html">영상</a>
                 <a href="./project.html">프로젝트 소개</a>
                 <a href="./team.html">팀원 소개</a>
@@ -90,6 +90,10 @@
     <script type="text/javascript" src="./scrolltrigger.js">
     </script>
     <script>
+        function toggle() {
+            var menu = document.querySelector('.header_tab')
+            menu.classList.toggle('hidden');
+        }
         const trigger = new ScrollTrigger.default({
             trigger: {
                 once: true,

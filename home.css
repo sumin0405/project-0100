@@ -224,7 +224,136 @@ section
 {
     .main .main_content .main_contentText
     {
+        font-size: 3.5em;
+    }
+    .introduce .introduce_content
+    {
+        max-width: 700px;
+        padding-top: 10.5vh;
+    }
+    .introduce .introduce_content .introduce_contentText h2
+    {
+        font-size: 1.8em;
+    }
+    .introduce .introduce_content .introduce_contentText p
+    {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        top: 3vh;
+    }
+    .introduce .introduce_content .introduce_contentButton
+    {
+        top: 7vh;
+        font-size: 1em;
+    }
+
+
+    .recentvideo .recentvideo_content
+    {
+        position: relative;
+        right: 5vw;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText
+    {
+        color: #fff;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText h2
+    {
+        color: #fff;
         font-size: 3em;
+        letter-spacing: 0.1em;
+        font-weight: 400;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText span
+    {
+        color: #fff;
+        font-size: 1.8em;
+        font-weight: 500;
+        position: relative;
+        letter-spacing: 0.1em;
+        top: 1.7vh;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText .recentvideo_contentText_span
+    {
+        margin-left: 30px;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText p
+    {
+        font-size: 1.4em;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentButton
+    {
+        font-size: 1.3em;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    .main .main_content .main_contentText
+    {
+        font-size: 2.5em;
+    }
+    .introduce .introduce_content
+    {
+        margin: auto;
+        width: 80%;
+        max-width: 700px;
+        padding-top: 8vh;
+    }
+    .introduce .introduce_content .introduce_contentText h2
+    {
+        font-size: 1.4em;
+    }
+    .introduce .introduce_content .introduce_contentText p
+    {
+        font-size: 1em;
+        line-height: 1.5em;
+        top: 3vh;
+    }
+    .introduce .introduce_content .introduce_contentButton
+    {
+        top: 7vh;
+        font-size: 1em;
+    }
+
+
+    .recentvideo .recentvideo_content
+    {
+        position: relative;
+        right: 5vw;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText
+    {
+        color: #fff;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText h2
+    {
+        color: #fff;
+        font-size: 3em;
+        letter-spacing: 0.1em;
+        font-weight: 400;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText span
+    {
+        color: #fff;
+        font-size: 1.8em;
+        font-weight: 500;
+        position: relative;
+        letter-spacing: 0.1em;
+        top: 1.7vh;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText .recentvideo_contentText_span
+    {
+        margin-left: 30px;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentText p
+    {
+        font-size: 1.4em;
+    }
+    .recentvideo .recentvideo_content .recentvideo_contentButton
+    {
+        font-size: 1.3em;
     }
 }
 
