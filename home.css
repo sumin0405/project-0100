@@ -322,7 +322,7 @@ section
         margin: auto;
         width: 80%;
         max-width: 350px;
-        padding-top: 8vh;
+        padding-top: 7vh;
     }
     .introduce .introduce_content .introduce_contentText .introduce_contentText_web
     {
@@ -364,15 +364,19 @@ section
     }
     .recentvideo .recentvideo_content .recentvideo_contentText .recentvideo_contentText_span
     {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .recentvideo .recentvideo_content .recentvideo_contentText p
     {
-        font-size: 1.4em;
+        position: relative;
+        top: 4vh;
+        font-size: 0.9em;
     }
     .recentvideo .recentvideo_content .recentvideo_contentButton
     {
-        font-size: 1.3em;
+        position: relative;
+        top: 9vh;
+        font-size: 1em;
     }
 }
 
