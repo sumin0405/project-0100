@@ -16,13 +16,16 @@
 <body>
     <!-- 헤더 -->
     <div class="header">
-        <a href="./index.html" class="Logo"><img src="./home_scr/logo.png" alt=""></a>
-        <div class="header_tab">
-            <a href="./Index.html">홈</a>
+        <a href=".home.html" class="Logo"><img src="./home_scr/logo.png" alt=""></a>
+        <div class="header_tab hidden">
+            <a href="./home.html">홈</a>
             <a href="./video.html">영상</a>
             <a href="./project.html">프로젝트 소개</a>
             <a href="./team.html">팀원 소개</a>
         </div>
+        <a href="#" class="toggleBtn">
+            <i class="fas fa-bars" onclick="toggle()"></i>
+        </a>
     </div>
     <!-- 헤더 끝 -->
 
@@ -32,7 +35,7 @@
             <img src="project_scr/slide1.jpg">
             <img src="project_scr/slide2.jpg">
             <img src="project_scr/slide.jpg">
-            <img src="project_scr/slide2.jpg">
+            <img src="project_scr/slide2.jpg">.
         </figure>
     </div>
 
@@ -203,6 +206,13 @@
 
         function resizeApply() { var minWidth = 1200; var body = document.getElementsByTagName('body')[0]; if (window.innerWidth < minWidth) { body.style.zoom = (window.innerWidth / minWidth); } else body.style.zoom = 1; } window.onload = function () { window.addEventListener('resize', function () { resizeApply(); }); }
         resizeApply();
+
+        // 모바일
+
+        function toggle() {
+            var menu = document.querySelector('.header_tab')
+            menu.classList.toggle('hidden');
+        }
 
     </script>
 </body>
