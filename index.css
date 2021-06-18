@@ -77,26 +77,66 @@
   .loading .loading_logo .loading_circle1
   {
     background-color: #fff;
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
   .loading .loading_logo .loading_box
   {
     background-color: #fff;
-    width: 2.7rem;
-    height: 4rem;
+    width: 2.3rem;
+    height: 3.5rem;
   }
   .loading .loading_logo .loading_circle2
   {
     background-color: #fff;
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
   .loading .loading_logo .loading_circle3
   {
     background-color: #fff;
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .loading .loading_logo div:nth-child(2)
+  {
+    margin-left: 15px;
+  }
+  .loading .loading_logo div:nth-child(3)
+  {
+    margin-left: 15px;
+  }
+  .loading .loading_logo div:nth-child(4)
+  {
+    margin-left: 15px;
+  } 
+}
+
+@media (max-width: 500px)
+{
+  .loading .loading_logo .loading_circle1
+  {
+    background-color: #fff;
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+  .loading .loading_logo .loading_box
+  {
+    background-color: #fff;
+    width: 2rem;
+    height: 2.7rem;
+  }
+  .loading .loading_logo .loading_circle2
+  {
+    background-color: #fff;
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+  .loading .loading_logo .loading_circle3
+  {
+    background-color: #fff;
+    width: 2.7rem;
+    height: 2.7rem;
   }
   .loading .loading_logo div:nth-child(2)
   {
@@ -109,7 +149,7 @@
   .loading .loading_logo div:nth-child(4)
   {
     margin-left: 20px;
-  } 
+  }
 }
 
 
