@@ -28,11 +28,11 @@
 
     <div id="slider">
         <figure>
-            <img src="project_scr/slide.png">
-            <img src="project_scr/slide1.png">
-            <img src="project_scr/slide.png">
-            <img src="project_scr/slide2.png">
-            <img src="project_scr/slide.png">
+            <img src="project_scr/slide.jpg">
+            <img src="project_scr/slide1.jpg">
+            <img src="project_scr/slide.jpg">
+            <img src="project_scr/slide2.jpg">
+            <img src="project_scr/slide.jpg">
         </figure>
     </div>
 
@@ -60,6 +60,10 @@
         <div class="photo3">
             <img src="project_scr/team3.jpeg">
         </div>
+
+    </div>
+
+    <div class="bar">
 
     </div>
 
@@ -111,79 +115,74 @@
         후원해주신 분들
     </div>
 
-    <div class="fourth">
-
-        <div class="name">
-            박수연
-            황예지
-            곽기은
-            엄윤미
-            설레임
-            김은하
-            서금옥
-            방지원
-            김원영
-            탁희영
-            <p></p>
-            변상환
-            한지민
-            김성
-            이문성
-            스토리스튜디오
-            안요한
-            이성원
-            박진희
-            이승연
-            <p></p>
-            백경혜
-            송진아
-            김수현
-            나병찬
-            마진혁
-            이선경
-            임미림
-            김선수
-            오유정
-            조서호
-            <p></p>
-            어정욱
-            김민호
-            곽민국
-            고다영
-            금혜지
-            이해영
-            고예지
-            이승민
-            윤재형
-            서금옥
-            <p></p>
-            박인혁
-            백단비
-            안선우
-            김안나
-            탁은영
-            신형식
-            손정희
-            정미진
-            최보라
-            이찬
-            장세영
-            권선구
-        </div>
-        <hr>
-        <div class="_name">
-            그 외 감사한 분들
-        </div>
+    <div class="name">
+        박수연
+        황예지
+        곽기은
+        엄윤미
+        설레임
+        김은하
+        서금옥
+        방지원
+        김원영
+        탁희영
+        <p></p>
+        변상환
+        한지민
+        김성
+        이문성
+        스토리스튜디오
+        안요한
+        이성원
+        박진희
+        이승연
+        <p></p>
+        백경혜
+        송진아
+        김수현
+        나병찬
+        마진혁
+        이선경
+        임미림
+        김선수
+        오유정
+        조서호
+        <p></p>
+        어정욱
+        김민호
+        곽민국
+        고다영
+        금혜지
+        이해영
+        고예지
+        이승민
+        윤재형
+        서금옥
+        <p></p>
+        박인혁
+        백단비
+        안선우
+        김안나
+        탁은영
+        신형식
+        손정희
+        정미진
+        최보라
+        권선구
+        <p></p>
+        이찬
+        장세영
     </div>
+
     <!-- 하단 -->
     <div class="footer">
-        <p>hh.sameage@gmail.com</p>
+        <a href="mailto:hh.sameage@gmail.com" title="혜화동년배 메일보내기" class="mail">hh.sameage@gmail.com</a>
         <div class="icon">
             <a href="https://www.instagram.com/project0100.official/"><i class="fab fa-instagram"></i></a>
             <a href="https://www.youtube.com/channel/UCcgnbLSOZZmugeNUALkdUyA"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
-    <!-- 하단 끝 -->
+
     <script type="text/javascript" src="./scrolltrigger.js">
     </script>
     <script>
@@ -201,6 +200,9 @@
             }
         });
         trigger.add('[data-trigger]');
+
+        function resizeApply() { var minWidth = 1200; var body = document.getElementsByTagName('body')[0]; if (window.innerWidth < minWidth) { body.style.zoom = (window.innerWidth / minWidth); } else body.style.zoom = 1; } window.onload = function () { window.addEventListener('resize', function () { resizeApply(); }); }
+        resizeApply();
     </script>
 </body>
 
