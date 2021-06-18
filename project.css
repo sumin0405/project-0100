@@ -48,14 +48,14 @@ a{text-decoration: none; color: white;}
 }
 
 .bar{
-    margin-top: 10%;
+    margin-top: 2%;
     background-color: rgb(26, 25, 25);
     width: 100%;
     height: 12vh;
 }
  
 .third {
-    margin-top: 18%;
+    margin-top: 9%;
     width: 100%;
     height: 140vh;
     background-color: rgb(3, 3, 3);
@@ -148,10 +148,12 @@ a{text-decoration: none; color: white;}
 
 .title{
     position: absolute;
-    left: 6.5%;
+    padding-top: 1%;
+    width: 100%;
     font-size: 65px;
-    font-weight: 900;
-    padding-top: 5.5%;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
 }
 
 /* .third .sex{
