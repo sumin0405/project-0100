@@ -23,13 +23,15 @@ a{text-decoration: none; color: white}
 /* 프로필 전체에 적용 */
 .memberprofilepage {
     background-image: url("team_scr/hhdnb2.jpg");
-    background-size:cover;
+    background-size: cover;
     align-items: center;
 }
 
 .memberprofile {
+    /* margin-left: 10px;
+    margin-right: 10px; */
     padding-top: 13.5vh;
-    padding-left:vh;
+    padding-left: vh;
     padding-right: vh;
     /* align-items: center; */
     text-align: center;  
@@ -39,7 +41,7 @@ a{text-decoration: none; color: white}
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) );
-    grid-gap: 3px;
+    grid-gap: 0px;
     padding-bottom:10vw;
     
 }
@@ -64,12 +66,12 @@ a{text-decoration: none; color: white}
 .member{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .member1{
-    margin-left: 20vh;
+    /* padding-left: 10vh; */
     /* flex: 1; */
-    margin: 8px;
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
@@ -78,7 +80,6 @@ a{text-decoration: none; color: white}
 }
 .member2{
     /* flex: 1; */
-    margin: 8px;
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
@@ -87,7 +88,6 @@ a{text-decoration: none; color: white}
 }
 .member3{
     /* flex: 1; */
-    margin: 8px;
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
@@ -95,9 +95,8 @@ a{text-decoration: none; color: white}
     color: rgb(0, 0, 0);
 }
 .member4{
-    margin-right: 20vh;
+    /* padding-right: 10vh; */
     /* flex: 1; */
-    margin: 8px;
     width: 40vh;
     /* height: 200px;
     line-height: 200px; */
