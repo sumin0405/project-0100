@@ -23,13 +23,12 @@ a{text-decoration: none; color: white}
     margin-left: 100px;
 }
 .header_tab{
-    margin-right: 100px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
 }
 .header_tab a{
     padding: 8px 25px;
-    border-radius: 5px;
     font-size: 1.2em;
 }
 .header_tab a:hover{
@@ -39,9 +38,10 @@ a{text-decoration: none; color: white}
 .toggleBtn{
     display: none;
     position: fixed;
-    right: 10px;
+    right: 50px;
     color: white;
     font-size: 25px;
+    top: 8px;
 }
 /* 헤더 끝 */
 
@@ -53,9 +53,11 @@ a{text-decoration: none; color: white}
     .Logo{
         margin-left: 30px;
     }
+    .Logo img{
+        width: 100px;
+    }
     .toggleBtn{
         display: block;
-        margin-right: 30px;
     }
     .header, .header_tab{
         flex-direction: column;
