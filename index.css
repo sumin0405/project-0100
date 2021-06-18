@@ -71,6 +71,48 @@
     animation: 1.4s bounce 3 ease-in-out;
     animation-delay: 1.4s;
 }
+
+@media(max-width: 991px)
+{
+  .loading .loading_logo .loading_circle1
+  {
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+  }
+  .loading .loading_logo .loading_box
+  {
+    background-color: #fff;
+    width: 2.7rem;
+    height: 4rem;
+  }
+  .loading .loading_logo .loading_circle2
+  {
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+  }
+  .loading .loading_logo .loading_circle3
+  {
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+  }
+  .loading .loading_logo div:nth-child(2)
+  {
+    margin-left: 20px;
+  }
+  .loading .loading_logo div:nth-child(3)
+  {
+    margin-left: 20px;
+  }
+  .loading .loading_logo div:nth-child(4)
+  {
+    margin-left: 20px;
+  } 
+}
+
+
 @keyframes bounce
 {
     100%,75%, 0%
