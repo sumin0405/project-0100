@@ -12,9 +12,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="./home_scr/원형로고.png">
 </head>
 
-<body>
+<body class="hidden">
     <div class="loading">
-        <div></div>
+        <div class="loading_logo">
+            <div class="loading_circle1"></div>
+            <div class="loading_box"></div>
+            <div class="loading_circle2"></div>
+            <div class="loading_circle3"></div>
+        </div>
     </div>
     <section class="main">
         <div class="main_img">
@@ -76,7 +81,6 @@
             <hr class="contact_hr">
         </div>
     </section>
-    <!-- 하단 -->
     <section class="footer">
         <p>hh.sameage@gmail.com</p>
         <div class="icon">
@@ -84,10 +88,17 @@
             <a href="https://www.youtube.com/channel/UCcgnbLSOZZmugeNUALkdUyA"><i class="fab fa-youtube"></i></a>
         </div>
     </section>
-    <!-- 하단 끝 -->
     <script type="text/javascript" src="./scrolltrigger.js">
     </script>
     <script>
+        var a = document.querySelector('body');
+
+        window.onload = function () {
+            setTimeout(function () {
+                a.classList.remove('hidden')
+            }, 7000);
+        }
+
         const trigger = new ScrollTrigger.default({
             trigger: {
                 once: true,
@@ -95,7 +106,7 @@
                     viewport: {
                         x: 0,
                         y: (trigger, frame, direction) => {
-                            return trigger.visible ? 0 : 0.4
+                            return trigger.visible ? 0 : 0.5
                         }
                     }
                 }
