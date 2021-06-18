@@ -31,19 +31,18 @@ a{text-decoration: none; color: white}
     /* margin-left: 10px;
     margin-right: 10px; */
     padding-top: 13.5vh;
-    padding-left: vh;
-    padding-right: vh;
     /* align-items: center; */
     text-align: center;  
-    width: 100%;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 95vw;
     /* display:flex; */
     /* flex-direction: row; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) );
     grid-gap: 0px;
-    padding-bottom:10vw;
-    
+    padding-bottom:10vw;   
 }
 @media (max-width: 600px) {
     .titlement{
@@ -55,7 +54,6 @@ a{text-decoration: none; color: white}
     }
     .memberprofile{    
         padding:0;
-        
         flex-direction: column;
         align-items: center;
     }
@@ -72,7 +70,7 @@ a{text-decoration: none; color: white}
 .member1{
     /* padding-left: 10vh; */
     /* flex: 1; */
-    width: 40vh;
+    /* width: 40vw; */
     /* height: 200px;
     line-height: 200px; */
     /* background-color: rgb(189, 189, 189); */
@@ -80,7 +78,7 @@ a{text-decoration: none; color: white}
 }
 .member2{
     /* flex: 1; */
-    width: 40vh;
+    /* width: 40vh; */
     /* height: 200px;
     line-height: 200px; */
     /* background-color: rgb(189, 189, 189); */
@@ -88,7 +86,7 @@ a{text-decoration: none; color: white}
 }
 .member3{
     /* flex: 1; */
-    width: 40vh;
+    /* width: 40vh; */
     /* height: 200px;
     line-height: 200px; */
     /* background-color: rgb(189, 189, 189); */
@@ -97,7 +95,7 @@ a{text-decoration: none; color: white}
 .member4{
     /* padding-right: 10vh; */
     /* flex: 1; */
-    width: 40vh;
+    /* width: 40vh; */
     /* height: 200px;
     line-height: 200px; */
     /* background-color: rgb(189, 189, 189); */
