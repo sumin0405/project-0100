@@ -2,118 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./home.css">
-    <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <title>Project : 0_100</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./home_scr/원형로고.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./home_scr/원형로고.png">
+  <title>Project : 0_100</title>
 </head>
 
-<body class="hidden">
-    <div class="loading">
-        <div class="loading_logo">
-            <div class="loading_circle1"></div>
-            <div class="loading_box"></div>
-            <div class="loading_circle2"></div>
-            <div class="loading_circle3"></div>
-        </div>
+<body>
+  <div class="loading">
+    <div class="loading_logo">
+      <div class="loading_circle1"></div>
+      <div class="loading_box"></div>
+      <div class="loading_circle2"></div>
+      <div class="loading_circle3"></div>
     </div>
-    <section class="main">
-        <div class="main_img">
-            <img src="./team_scr/hhdnb.jpg">
-        </div>
-        <header>
-            <div class="main_navbar">
-                <a href="./index.html" class="main_navbarLogo"><img src="./home_scr/logo.png" alt=""></a>
-                <div class="main_navbarTab">
-                    <a href="./index.html">홈</a>
-                    <a href="./video.html">영상</a>
-                    <a href="./project.html">프로젝트 소개</a>
-                    <a href="./team.html">팀원 소개</a>
-                </div>
-            </div>
-        </header>
-        <div class="main_content">
-            <div class="main_contentText">
-                <h2>사회의</h2>
-                <h2><span>공</span><span>백</span>을</h2>
-                <h2>메꾸다</h2>
-            </div>
-        </div>
-    </section>
-    <section class="introduce">
-        <div class="introduce_content" data-trigger>
-            <div class="introduce_contentText">
-                <h2>PROJECT : 0_100</h2>
-                <p>공백은 학교에서의 성교육이 학생들에게 필요한 정보를</p>
-                <p>제공하지 못한다는 문제를 해결하기 위해 청소년의 올바른</p>
-                <p>성 가치관 확립에 기여할 수 있는 영상을 제작하는 프로젝트입니다.</p>
-            </div>
-            <div class="introduce_contentButton">
-                <a href="./project.html">
-                    <h2>더 알아보기</h2>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="recentvideo">
-        <div class="recentvideo_content" data-trigger>
-            <div class="recentvideo_contentText">
-                <h2>Episode : 01</h2>
-                <span>2021.07.14</span>
-                <span class="recentvideo_contentText_span">34초</span>
-                <span class="recentvideo_contentText_span">예고편</span>
-                <p>PROJECT : 0_100의 본격적인 시작을 알리는</p>
-                <p>짧은 예고편으로 공백의 비전을 담아보았다.</p>
-            </div>
-            <div class="recentvideo_contentButton">
-                <a href="https://www.youtube.com/channel/UCcgnbLSOZZmugeNUALkdUyA">
-                    <h2>시청하기</h2>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="contact">
-        <div>
-            <hr class="contact_hr">
-        </div>
-    </section>
-    <section class="footer">
-        <p>hh.sameage@gmail.com</p>
-        <div class="icon">
-            <a href="https://www.instagram.com/project0100.official/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCcgnbLSOZZmugeNUALkdUyA"><i class="fab fa-youtube"></i></a>
-        </div>
-    </section>
-    <script type="text/javascript" src="./scrolltrigger.js">
-    </script>
-    <script>
-        var a = document.querySelector('body');
+  </div>
+  <script>
+    var a = document.querySelector('body');
 
-        window.onload = function () {
-            setTimeout(function () {
-                a.classList.remove('hidden')
-            }, 7000);
-        }
-
-        const trigger = new ScrollTrigger.default({
-            trigger: {
-                once: true,
-                offset: {
-                    viewport: {
-                        x: 0,
-                        y: (trigger, frame, direction) => {
-                            return trigger.visible ? 0 : 0.5
-                        }
-                    }
-                }
-            }
-        });
-        trigger.add('[data-trigger]');
-    </script>
+    window.onload = function () {
+      setTimeout(function () {
+        // a.classList.remove('hidden')
+        window.location.href = 'home.html'
+      }, 6000);
+    }
+  </script>
 </body>
 
 </html>
