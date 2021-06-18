@@ -220,23 +220,6 @@ section
     color: #fff;
 }
 
-.contact
-{
-    position: relative;
-    background-color: #1a1a1a;
-    width: 100%;
-    min-height: 88vh;
-}
-.contact_hr
-{
-    position: absolute;
-    bottom: 0;
-    background-color: grey;
-    border: none;
-    width: 90vw;
-    height: 1px;
-    left: 5vw;
-}
 
 @media(max-width: 991px)
 {
