@@ -66,23 +66,14 @@ a{text-decoration: none; color: white;}
     font-size: xx-large;
 }
 
-.fourth {
+.name {
     width: 100%;
     height: 60vh;
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-
-.name {
     margin-top: 5%;
-    margin-bottom: 6%;
-    font-size: xx-large;
-}
-
-._name {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-size: xx-large;
 }
 
@@ -158,7 +149,7 @@ a{text-decoration: none; color: white;}
     position: absolute;
     left: 6.5%;
     font-size: 65px;
-    font: weight 10000px;;
+    font-weight: 900;
     padding-top: 5.5%;
 }
 
