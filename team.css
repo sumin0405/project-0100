@@ -36,15 +36,32 @@ a{text-decoration: none; color: white}
     padding-right: 10vh;
     /* align-items: center; */
     text-align: center;  
+    
     display:flex;
     flex-direction: row;
-	/* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr) ); */
+
+    
+    
+}
+@media (max-width: 320px) {
+    .titlement{
+        width: 100%;
+    }
+    .memberprofilepage{
+        height: 2000px;
+    }
+    .memberprofile{    
+        padding:0;
+        height: 2000px;
+        background-color:lightgray;
+        flex-direction: column;
+    }
+    
 }
 /* 전체에 적용 끝 */
 
 .member1{
+    
     flex: 1;
     margin: 8px;
     width: 40vh;
