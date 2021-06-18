@@ -107,21 +107,39 @@ section
     max-width: 800px;
     padding-top: 8.8vh;
 }
-.introduce .introduce_content .introduce_contentText h2
+.introduce .introduce_content .introduce_contentText .introduce_contentText_web h2
 {
     color: #fff;
     font-size: 2.2em;
     letter-spacing: 0.2em;
 }
-.introduce .introduce_content .introduce_contentText p
+.introduce .introduce_content .introduce_contentText .introduce_contentText_web p
 {
     position: relative;
     color: #fff;
     font-size: 1.5em;
     font-weight: 300;
-    line-height: 1.5em;
     letter-spacing: 0.08em;
     top: 2vh;
+}
+.introduce .introduce_content .introduce_contentText .introduce_contentText_media
+{
+    display: none;
+}
+.introduce .introduce_content .introduce_contentText .introduce_contentText_media h2
+{
+    color: #fff;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+}
+.introduce .introduce_content .introduce_contentText .introduce_contentText_media p
+{
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    top: 3vh;
 }
 .introduce .introduce_content .introduce_contentButton
 {
@@ -231,11 +249,11 @@ section
         max-width: 700px;
         padding-top: 10.5vh;
     }
-    .introduce .introduce_content .introduce_contentText h2
+    .introduce .introduce_content .introduce_contentText .introduce_contentText_web h2
     {
         font-size: 1.8em;
     }
-    .introduce .introduce_content .introduce_contentText p
+    .introduce .introduce_content .introduce_contentText .introduce_contentText_web p
     {
         font-size: 1.2em;
         line-height: 1.5em;
@@ -294,34 +312,36 @@ section
     {
         font-size: 2.5em;
     }
+
+    .introduce
+    {
+        min-height: 45vh;
+    }
     .introduce .introduce_content
     {
         margin: auto;
         width: 80%;
-        max-width: 700px;
+        max-width: 350px;
         padding-top: 8vh;
     }
-    .introduce .introduce_content .introduce_contentText h2
+    .introduce .introduce_content .introduce_contentText .introduce_contentText_web
     {
-        font-size: 1.4em;
+        display: none;
     }
-    .introduce .introduce_content .introduce_contentText p
+    .introduce .introduce_content .introduce_contentText .introduce_contentText_media
     {
-        font-size: 1em;
-        line-height: 1.5em;
-        top: 3vh;
+        display: block;
     }
     .introduce .introduce_content .introduce_contentButton
     {
         top: 7vh;
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
 
     .recentvideo .recentvideo_content
     {
         position: relative;
-        right: 5vw;
     }
     .recentvideo .recentvideo_content .recentvideo_contentText
     {
@@ -330,15 +350,14 @@ section
     .recentvideo .recentvideo_content .recentvideo_contentText h2
     {
         color: #fff;
-        font-size: 3em;
+        font-size: 1.4em;
         letter-spacing: 0.1em;
-        font-weight: 400;
     }
     .recentvideo .recentvideo_content .recentvideo_contentText span
     {
         color: #fff;
-        font-size: 1.8em;
-        font-weight: 500;
+        font-size: 1.2em;
+
         position: relative;
         letter-spacing: 0.1em;
         top: 1.7vh;
