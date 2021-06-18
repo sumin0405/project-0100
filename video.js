@@ -96,3 +96,9 @@ function list() {
         print(_result);
     }
 }
+// 모바일
+
+function toggle() {
+    var menu = document.querySelector('.header_tab')
+    menu.classList.toggle('hidden');
+}
