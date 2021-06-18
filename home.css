@@ -342,6 +342,7 @@ section
     .recentvideo .recentvideo_content
     {
         position: relative;
+        left: 0.5vh;
     }
     .recentvideo .recentvideo_content .recentvideo_contentText
     {
