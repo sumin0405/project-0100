@@ -8,15 +8,16 @@ a{text-decoration: none; color: white}
     background-size:cover;
     height: 100vh;
     color: #fafafa;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 79px;
-    padding-bottom:10vw;
 }
 
 .titlementtext{
     background-color: none;
     line-height: 110px;
-    padding-top: 285px;
+    padding-top: 36vh;
 }
 /* 첫페이지 끝 */
 
