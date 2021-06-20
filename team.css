@@ -45,10 +45,18 @@ a{text-decoration: none; color: white}
     grid-gap: 0px;
     padding-bottom:10vw;   
 }
-@media (max-width: 600px) {
+@media (max-width: 770px) {
     .titlement{
         width: 100%;
+        font-size: 60px;
+        
     }
+
+    .titlementtext{
+        padding-top: 38vh;
+        line-height: 85px;
+    }
+
     .memberprofilepage{
         height: 2000px;
 
@@ -60,6 +68,19 @@ a{text-decoration: none; color: white}
     }
     
 }
+
+@media (max-width: 580px) {
+    .titlement{
+        width: 100%;
+        font-size: 35px;
+        
+    }
+
+    .titlementtext{
+        line-height: 60px;
+    }
+}
+
 /* 전체에 적용 끝 */
 
 .member{
