@@ -66,6 +66,10 @@ a{text-decoration: none; color: white}
         flex-direction: column;
         align-items: center;
     }
+
+    .member{
+        padding-top: 155px
+    }
     
 }
 
@@ -78,8 +82,26 @@ a{text-decoration: none; color: white}
 
     .titlementtext{
         line-height: 55px;
+
+    }
+
+    .member{
+        padding-top: 65px;
     }
 }
+
+/* @media (min-width: px) {
+    .titlement{
+        width: 100%;
+        font-size: 35px;
+        
+    }
+
+    .titlementtext{
+        line-height: 55px;
+    }
+    
+} */
 
 /* 전체에 적용 끝 */
 
