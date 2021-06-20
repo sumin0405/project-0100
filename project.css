@@ -325,21 +325,16 @@ hr{
 
 @media (max-width: 768px){
     .start{
-        position: relative;
-        text-align: center;
-        justify-content: center;
         font-size: 30px;
         font-weight:600;
-    }
-    .logo{
-        position: relative;
-        text-align: center;
-        justify-content: center;
     }
 }
 
 @media (max-width: 768px){
     .left{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
        padding-top: 5%;
     }
 }
