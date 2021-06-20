@@ -224,32 +224,26 @@ a{text-decoration: none; color: white;}
     src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-.lee{
+.lee:hover{
     font-family: neon;
     color: #FB4264;
   font-size: 150%;
   font-weight: 500;
   text-shadow: 0 0 3vw #F40A35;
-}
-
-.lee{
-    animation: lee 1s ease infinite;
+  animation: lee 1s ease infinite;
   -moz-animation: lee 1s ease infinite;
   -webkit-animation: lee 1s ease infinite;
 }
 
-.bak{
+.bak:hover{
     font-family: neon;
     color: #426DFB;
     font-weight: 500;
   font-size: 150%;
   text-shadow: 0 0 3vw #2356FF;
-}
-
-.bak{
-    animation: bak 1s ease infinite;
-    -moz-animation: bak 1s ease infinite;
-    -webkit-animation: bak 1s ease infinite;
+  animation: bak 1s ease infinite;
+  -moz-animation: bak 1s ease infinite;
+  -webkit-animation: bak 1s ease infinite;
 }
 
 
