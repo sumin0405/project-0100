@@ -1,4 +1,5 @@
 .footer{
+    right: 0;
     position: relative;
     min-height: 8vh;
     width: 100%;
@@ -36,8 +37,8 @@
 
 @media(max-width: 991px)
 {
-    .footer .mail a
+    .mail
     {
-        size: 10em;
+        font-size: 1em;
     }
 }

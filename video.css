@@ -86,4 +86,7 @@ a{text-decoration: none; color: white;}
         min-width: 350px;
         min-height: 225px;
     }
+    .videoBox{
+        margin: 10px;
+    }
 }
