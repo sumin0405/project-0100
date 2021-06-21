@@ -36,8 +36,8 @@
 
 @media(max-width: 991px)
 {
-    .footer .mail a
+    .mail
     {
-        size: 10em;
+        font-size: 1em;
     }
 }
