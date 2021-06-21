@@ -49,7 +49,6 @@ a{text-decoration: none; color: white}
     .titlement{
         width: 100%;
         font-size: 60px;
-        
     }
 
     .titlementtext{
@@ -71,6 +70,15 @@ a{text-decoration: none; color: white}
         padding-top: 155px
     }
     
+}
+
+@media (max-width: 1109px) {
+    .member{
+        padding-top: 65px;
+    }
+    .memberprofile{
+        padding-top: 9px;
+    }
 }
 
 @media (max-width: 580px) {
