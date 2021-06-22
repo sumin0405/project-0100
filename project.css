@@ -45,6 +45,9 @@ a{text-decoration: none; color: white;}
     font-size: 22px;
     text-align: center;
     justify-content: center;
+    background-color: #000;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
     color:rgb(246, 247, 239);
 }
 
