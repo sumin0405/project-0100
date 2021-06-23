@@ -223,9 +223,9 @@ a{text-decoration: none; color: white;}
 .lee:hover{
     font-family: neon;
     color: #FB4264;
-  font-size: 300%;
-  font-weight: 800;
-  text-shadow: 0 0 3vw #F40A35;
+  /* font-size: 300%;
+  font-weight: 800; */
+  text-shadow: 0 0  #F40A35;
   animation: lee 1s ease infinite;
   -moz-animation: lee 1s ease infinite;
   -webkit-animation: lee 1s ease infinite;
@@ -234,9 +234,9 @@ a{text-decoration: none; color: white;}
 .bak:hover{
     font-family: neon;
     color: #426DFB;
-    font-weight: 800;
-  font-size: 300%;
-  text-shadow: 0 0 3vw #2356FF;
+    /* font-weight: 800;
+  font-size: 300%; */
+  text-shadow: 0 0 #2356FF;
   animation: bak 1s ease infinite;
   -moz-animation: bak 1s ease infinite;
   -webkit-animation: bak 1s ease infinite;
@@ -317,6 +317,12 @@ a{text-decoration: none; color: white;}
 hr{
     margin-top: 8%;
     width: 60%;
+}
+
+@media (max-width: 768px){
+    #slider{
+        margin-top: 8.9vh;
+    }
 }
 
 @media (max-width: 768px){
