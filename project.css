@@ -321,7 +321,7 @@ hr{
 
 @media (max-width: 768px){
     #slider{
-        margin-top: 8.9vh;
+        margin-top: 0;
     }
 }
 
