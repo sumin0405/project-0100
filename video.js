@@ -49,14 +49,14 @@ var video = [{
     },
     {
         img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
-        title: "[EP.8] 우리나라 성교육의 내용적인 문제점 (2015 표준안)",
+        title: "[EP.8] 우리나라 성교육의 내용적인 문제점",
         text: "구체적인 자료들을 바탕으로 학교 성교육의 어떤 부분이 문제인지 알아보는 영상",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 10 + "." + 15
     },
     {
         img: "https://www.youtube.com/embed/CfvhCmzE1QQ",
-        title: "[EP.9] 우리나라 성교육의 제도적인 문제점 (성교육 교사 부족, 시수 부족)",
+        title: "[EP.9] 우리나라 성교육의 제도적인 문제점",
         text: "구체적인 자료들을 바탕으로 학교 성교육의 어떤 부분이 문제인지 알아보는 영상",
         url: "https://www.youtube.com/watch?v=5lb6gckhvlM",
         day: 2021 + "." + 11 + "." + 01
